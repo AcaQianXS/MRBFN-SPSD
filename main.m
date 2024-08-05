@@ -23,7 +23,7 @@ output_dim = 3;
 train_num = length(training_label);
 test_num = length(test_label);
 
-maxIterations = 10;
+maxIterations = 500;
 lambdaW = 1e-5; % L1 regularization parameter for output weights
 lambdaF = 1e-5; % L1 regularization parameter for feature weights
 
